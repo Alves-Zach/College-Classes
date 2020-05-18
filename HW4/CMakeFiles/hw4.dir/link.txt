@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhw4.a  CMakeFiles/hw4.dir/Ratio.cc.o
-/usr/bin/ranlib libhw4.a

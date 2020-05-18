@@ -1,4 +1,0 @@
-/home/zachary/Documents/Google_Drive/College classes/Junior year/Second_Semester/CS253(C++)/HW2/CMakeFiles/rebuild_cache.dir
-/home/zachary/Documents/Google_Drive/College classes/Junior year/Second_Semester/CS253(C++)/HW2/CMakeFiles/edit_cache.dir
-/home/zachary/Documents/Google_Drive/College classes/Junior year/Second_Semester/CS253(C++)/HW2/CMakeFiles/hw2.dir
-/home/zachary/Documents/Google_Drive/College classes/Junior year/Second_Semester/CS253(C++)/HW2/CMakeFiles/hw2.tar.dir
