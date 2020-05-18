@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zachary/Documents/Google_Drive/College classes/Junior year/Second_Semester/CS253(C++)/HW2/main.cc
+iostream
+-
+string
+-
+vector
+-
+

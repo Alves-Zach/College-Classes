@@ -1,0 +1,38 @@
+1. 
+g++  -c main.cc
+g++  -c foo.cc
+g++  main.o foo.o -o small
+
+2.
+Hi from main at main.cc:8
+Hi from foo at foo.cc:14
+
+3. 
+Nothing happened because nothing changed from the last make call
+
+5.
+g++  main.o foo.o -o small
+Only small got remade
+
+7. 
+g++  -c foo.cc
+g++  main.o foo.o -o small
+foo.o, foo.cc, and small got remade, because foo.cc and small depend on foo.o
+
+8.
+It removed small
+
+9. 
+Everything got remade because clean removed small and every file that ends with the file extention .o
+
+10.
+main.o depends on foo.h, so main.o also needs foo.o
+
+13.
+It failed because the make file doesn't try to include bar.h and bar.cc when making the file
+
+16.
+Nothing happened becase we only changed the options for the output during the make proccess. So nothing was changed with the files that were being made, so it detected no changes were made.
+
+19.
+Because clean is a predefined command in the MakeFile
